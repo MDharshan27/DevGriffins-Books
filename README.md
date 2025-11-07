@@ -14,7 +14,7 @@ A modern book discovery app built with **React**, **Vite**, and **Tailwind CSS**
 - React – UI components
 - Vite – Lightning-fast development
 - Tailwind CSS – Styling and layout
-- Open Library API – Book data source
+- Open Library API – Book data source (https://openlibrary.org/dev/docs/api/search)
 
 ## 📂 GitHub Repository
 https://github.com/MDharshan27/DevGriffins-Books.git
