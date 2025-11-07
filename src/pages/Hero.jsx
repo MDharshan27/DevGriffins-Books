@@ -6,7 +6,7 @@ const Hero = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/home");
+    navigate("/books");
   };
 
   return (
@@ -40,6 +40,8 @@ const Hero = () => {
         </button>
       </div>
     </section>
+
+    
   );
 };
 
