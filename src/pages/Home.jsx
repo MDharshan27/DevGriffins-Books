@@ -60,7 +60,7 @@ const Home = () => {
               return (
                 <div
                   key={i}
-                  className="bg-white/10 rounded-2xl overflow-hidden shadow-lg hover:scale-105 transition-all duration-300 flex flex-col"
+                  className="bg-white/10 rounded-2xl overflow-hidden shadow-lg flex flex-col"
                 >
                   <img
                     src={coverImage}
