@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="min-h-screen bg-linear-to-b from-gray-900 via-gray-800 to-black text-white font-[Poppins] flex flex-col items-center justify-center">
       {/* Page Title */}
       <h1 className="text-5xl font-bold text-center text-emerald-400 pt-32 mb-8">
-        DevGriffins Book Explorer
+        DevGriffins Contact
       </h1>
 
       {/* Contact Section */}
