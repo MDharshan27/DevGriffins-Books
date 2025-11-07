@@ -9,14 +9,14 @@ const Contact = () => {
       </h1>
 
       {/* Contact Section */}
-      <div className="max-w-7xl w-full bg-gray-900/50 backdrop-blur-md shadow-2xl rounded-3xl p-10 mb-15 flex flex-col md:flex-row items-center gap-10">
+      <div className="max-w-7xl w-full bg-gray-900/50 backdrop-blur-md shadow-2xl rounded-3xl p-10 mb-16 flex flex-col md:flex-row items-center gap-10">
         {/* Left Info */}
         <div className="flex-1 space-y-6">
           <p className="uppercase text-sm tracking-widest text-emerald-400">
             We're here to help you
           </p>
           <h2 className="text-4xl font-semibold leading-snug">
-            Discuss Your <br />{" "}
+            Discuss Your <br />
             <span className="text-emerald-400">Book Explorer Experience</span>
           </h2>
           <p className="text-gray-300 text-sm">
@@ -78,6 +78,15 @@ const Contact = () => {
           </form>
         </div>
       </div>
+
+      {/* Footer */}
+      <footer className="w-full bg-gray-950 py-8 text-center border-t border-gray-800 mt-auto">
+        <p className="text-gray-400 text-sm">
+          © {new Date().getFullYear()}{" "}
+          <span className="text-emerald-400 font-medium">DevGriffins Books</span>.{" "}
+          All rights reserved.
+        </p>
+      </footer>
     </div>
   );
 };
