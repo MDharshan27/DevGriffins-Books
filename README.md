@@ -1,4 +1,4 @@
-# 📚 DevGriffins Book Explorer
+# 📚 DevGriffins Books Explorer
 
 A modern book discovery app built with **React**, **Vite**, and **Tailwind CSS**, where users can search and explore their favorite books using the **Open Library API**.
 
