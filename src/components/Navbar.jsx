@@ -17,6 +17,12 @@ const Navbar = () => {
         About
       </Link>
       <Link
+            to="/blog"
+            className="text-emerald-400 font-semibold hover:text-white transition-all duration-300"
+          >
+            Blog
+          </Link>
+      <Link
         to="/contact"
         className="text-emerald-400 font-semibold hover:text-white transition-all duration-300"
       >
